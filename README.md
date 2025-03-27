@@ -1,56 +1,44 @@
+
+
+
+https://github.com/user-attachments/assets/df0e1b7c-9847-484b-ac04-75d1016cda92
+
+
+
 # Installation
 
-To get started, you'll need to have Node.js and npm installed on your system. You can install them from the official website: [https://nodejs.org/en/download/](https://nodejs.org/en/download/).
+To install the project dependencies, run the following command:
 
-Once you have Node.js and npm installed, follow these steps:
-
-1. Clone the repository:
 ```
-git clone <YOUR_GIT_URL>
+npm install
 ```
 
-2. Navigate to the project directory:
-```
-cd <YOUR_PROJECT_NAME>
-```
+# Usage
 
-3. Install the dependencies:
-```
-npm i
-```
+To start the development server, run the following command:
 
-4. Start the development server:
 ```
 npm run dev
 ```
 
-This will start the development server and open your application in the browser. Any changes you make to the code will automatically trigger a reload.
-
-# Usage
-
-The application is built using the following technologies:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-You can start developing by editing the files in the `src` directory.
+This will start the development server and open the application in your default web browser.
 
 # API
 
-The application does not have a public API.
+The project uses the following APIs:
+
+- `@tanstack/react-query`: A powerful library for managing asynchronous state in React applications.
+- `@radix-ui/*`: A set of accessible, themable, and unstyled UI components for building high-quality, accessible design systems and web apps.
 
 # Contributing
 
-If you would like to contribute to this project, please follow these steps:
+If you would like to contribute to the project, please follow these steps:
 
-1. Fork the repository
-2. Create a new branch for your changes
-3. Make your changes and commit them
-4. Push your changes to your fork
-5. Create a pull request
+1. Fork the repository.
+2. Create a new branch for your changes.
+3. Make your changes and commit them.
+4. Push your changes to your forked repository.
+5. Create a pull request to the main repository.
 
 # License
 
@@ -58,4 +46,10 @@ This project is licensed under the [MIT License](LICENSE).
 
 # Testing
 
-There are no tests included in this project.
+To run the tests, use the following command:
+
+```
+npm run test
+```
+
+This will run the test suite and report the results.
