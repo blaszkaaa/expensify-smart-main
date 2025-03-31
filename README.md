@@ -1,7 +1,8 @@
+# Link
+
+https://blaszkaaa.github.io/expensify-smart-main/
 
 
-
-https://github.com/user-attachments/assets/df0e1b7c-9847-484b-ac04-75d1016cda92
 
 
 
