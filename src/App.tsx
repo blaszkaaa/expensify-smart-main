@@ -18,7 +18,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/expensify-smart-main">
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/transactions" element={<Transactions />} />

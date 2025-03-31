@@ -19,7 +19,7 @@ export function ThemeToggle() {
   // Initialize theme from localStorage or system preference
   useEffect(() => {
     const savedTheme = localStorage.getItem("theme");
-    if (savedTheme === "dark" || (!savedTheme && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+    if (savedTheme === "dark" || (!savedTheme && window.matchMedia("(prefers-color-scheme: light)").matches)) {
       setTheme("dark");
       document.documentElement.classList.add("dark");
     } else {
@@ -42,7 +42,7 @@ export function ThemeToggle() {
       <Tooltip>
         <TooltipTrigger asChild>
           <Button variant="ghost" size="icon" onClick={toggleTheme} className="animate-fade-in">
-            {theme === "dark" ? <Sun className="h-5 w-5 text-yellow-300" /> : <Moon className="h-5 w-5" />}
+            {theme === "light" ? <Sun className="h-5 w-5 text-yellow-300" /> : <Moon className="h-5 w-5" />}
           </Button>
         </TooltipTrigger>
         <TooltipContent side="bottom">
